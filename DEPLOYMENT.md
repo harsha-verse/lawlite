@@ -51,14 +51,18 @@ Redeploy after adding or changing variables (Vite bakes `VITE_*` vars in at buil
 
 ## 4. Supabase Auth (required for login)
 
-After your first Vercel deploy, note your URL (e.g. `https://your-app.vercel.app`).
+Production URL: **https://lawlite-khaki.vercel.app**
 
-In Supabase: **Authentication → URL Configuration**
+In Supabase: **Authentication → URL Configuration** (or run `npx supabase config push` after `supabase login`)
 
-- **Site URL:** `https://your-app.vercel.app`
+- **Site URL:** `https://lawlite-khaki.vercel.app`
 - **Redirect URLs:** add:
-  - `https://your-app.vercel.app/**`
+  - `https://lawlite-khaki.vercel.app/**`
+  - `https://lawlite-harsha-verses-projects.vercel.app/**`
+  - `https://lawlite-git-main-harsha-verses-projects.vercel.app/**`
   - `http://localhost:8080/**` (local dev)
+
+These values are also defined in [`supabase/config.toml`](supabase/config.toml) under `[auth]`.
 
 Google sign-in uses `window.location.origin` as `redirect_uri`. Ensure that origin is allowed in your auth provider / Lovable cloud auth settings if you use Google OAuth.
 

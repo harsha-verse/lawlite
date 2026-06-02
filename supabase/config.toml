@@ -1,5 +1,14 @@
 project_id = "puazenbfwexapuofrarh"
 
+[auth]
+site_url = "https://lawlite-khaki.vercel.app"
+additional_redirect_urls = [
+  "https://lawlite-khaki.vercel.app/**",
+  "https://lawlite-harsha-verses-projects.vercel.app/**",
+  "https://lawlite-git-main-harsha-verses-projects.vercel.app/**",
+  "http://localhost:8080/**",
+]
+
 [functions.generate-document]
 verify_jwt = false
 
