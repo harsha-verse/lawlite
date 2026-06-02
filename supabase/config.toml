@@ -1,0 +1,10 @@
+project_id = "puazenbfwexapuofrarh"
+
+[functions.generate-document]
+verify_jwt = false
+
+[functions.nyaya-chat]
+verify_jwt = false
+
+[functions.match-lawyers]
+verify_jwt = false

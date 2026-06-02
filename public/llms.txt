@@ -1,0 +1,25 @@
+# LAWLITE
+
+> LAWLITE is an India-focused legal services platform connecting individuals and MSMEs with verified lawyers, offering AI-guided legal advice (NyayaBot), case management, consultations, and document generation across 13 Indian languages.
+
+LAWLITE digitizes the entire legal workflow — from client intake to case resolution — with secure case management, verified Bar Council lawyers, regulated consultant fees (₹600–₹1800), and an Advocate Workspace for legal professionals.
+
+## Pages
+
+- [Home / Login](/login): Sign in to LAWLITE.
+- [User Signup](/signup): Create an individual or MSME client account.
+- [Lawyer Signup](/lawyer-signup): Bar Council–verified registration for advocates.
+
+## Features
+
+- NyayaBot AI legal assistant with state-aware guidance for Indian law
+- Case management with smart lawyer matching and priority assignment
+- Consultations: video, phone, and in-person scheduling
+- Authority finder mapping legal issues to government bodies across 8+ states
+- Legal templates: 30+ documents across 6 categories with browser-based PDF/Word export
+- Advocate Workspace: cases, clients, tasks, hearings, audit log, document versioning
+- MSME support: business registration, compliance, and direct consultant access
+
+## Optional
+
+- [Lovable project](https://lovable.dev): Platform LAWLITE is built on.
