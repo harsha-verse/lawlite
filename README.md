@@ -74,6 +74,8 @@ This project is built with:
 
 Full checklist: [DEPLOYMENT.md](./DEPLOYMENT.md)
 
+**Live (Vercel):** https://lawlite-khaki.vercel.app — Framework preset: **Vite**
+
 ### Lovable
 
 You can also publish via [Lovable](https://lovable.dev/projects/53d05699-7d25-4217-ac61-f1d3535f5211) → Share → Publish.
